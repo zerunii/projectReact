@@ -38,6 +38,11 @@ function HomeStack() {
         component={RegisterScreen}
         options={{title: 'ลงทะเบียน'}}
       />
+       <Stack.Screen
+        name="LoginScreen"
+        component={LoginScreen}
+        options={{title: 'เข้าสู่ระบบ'}}
+      />
     </Stack.Navigator>
   );
 };
@@ -95,7 +100,6 @@ const App = () => {
       >
         <Drawer.Screen name='HomeStack' component ={HomeStack}/>
         <Drawer.Screen name='ProductStack' component ={ProductStack}/>
-        <Drawer.Screen name='LoginStack' component ={LoginStack}/>
       </Drawer.Navigator>
     </NavigationContainer>
   );

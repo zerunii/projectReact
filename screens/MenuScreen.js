@@ -60,7 +60,7 @@ const MenuScreen = ({navigation}) => {
             </Right>
           </ListItem>
           <ListItem icon
-            onPress={()=> navigation.navigate('LoginStack')}
+             onPress={()=> navigation.navigate('LoginScreen')}
           >
             <Left>
               <Button style={{backgroundColor: 'orange'}}>
@@ -68,10 +68,10 @@ const MenuScreen = ({navigation}) => {
               </Button>
             </Left>
             <Body>
-              <Text>Login</Text>
+              <Text>เข้าสู่ระบบ</Text>
             </Body>
             <Right>
-                <Icon active name="arrow-forward" />
+              <Icon active name="arrow-forward" />
             </Right>
           </ListItem>
           
